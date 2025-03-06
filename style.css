@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Overpass";
+}
+
+.main-card {
+  background-color: rgb(31 38 48);
+  width: 19rem;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.star {
+  background-color: rgb(39 45 55);
+  width: 28px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.firstQ {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.feedbackText {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.7rem;
+  line-height: 1.5; /* width: 17rem; */
+  margin-bottom: 1rem;
+}
+
+.rate-btn {
+  display: flex;
+  margin-bottom: 1.3rem;
+  gap: 1rem;
+}
+
+.btn-option {
+  cursor: pointer;
+  padding: 0.6rem 0.9rem;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(39 45 55);
+  color: hsl(217, 12%, 63%);
+  transition: background-color 500ms;
+  font-weight: 600;
+}
+
+.selected {
+  background-color: white;
+  color: hsl(216, 12%, 8%);
+}
+
+.btn-option:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+}
+
+.submitBtn {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  padding: 0.6rem 6rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+  font-family: "Overpass";
+  transition: background-color 500ms;
+}
+
+.submitBtn:hover {
+  background-color: white;
+}
+
+.popup-thankU {
+  background-color: rgb(31 38 48);
+  width: 19rem;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  display: none;
+}
+
+.optionSelected {
+  margin: 1.3rem auto;
+  background-color: rgb(39 45 55);
+  padding: 0.5rem 0.1rem;
+  border-radius: 2rem;
+  width: 11rem;
+  font-size: 0.9rem;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks-txt {
+  margin-bottom: 1rem;
+}
+
+.appreciation-txt {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: hsl(217, 12%, 63%);
+}
+
+.phone-img {
+  width: 10rem;
+}
