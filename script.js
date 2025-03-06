@@ -28,6 +28,5 @@ btnSubmit.addEventListener("click", function () {
       "4",
       selectedBtn.textContent
     );
-    console.log(selectedBtn.textContent);
   }
 });
